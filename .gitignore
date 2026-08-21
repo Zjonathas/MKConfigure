@@ -1,0 +1,86 @@
+# ============================================================
+# MKConfigure — .gitignore
+# ============================================================
+
+# ── Environment & Secrets ───────────────────────────────────
+.env
+.env.*
+!.env.example
+*.env
+*.pem
+*.key
+*.cert
+*.crt
+*.pfx
+*.p12
+*.kdbx
+*.credentials
+
+# ── Generated Configurations & Backups ──────────────────────
+*.rsc
+*.backup
+*.rsc.bak
+export/
+backups/
+
+# ── Node / Build Tools (se utilizado no futuro) ─────────────
+node_modules/
+dist/
+build/
+out/
+.next/
+.nuxt/
+.cache/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-debug.log*
+
+# ── IDEs & Editores ─────────────────────────────────────────
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.swp
+*.swo
+*~
+*.bak
+
+# ── Sistema Operacional ─────────────────────────────────────
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ── Antigravity / AI Agent Artifacts ────────────────────────
+.agent/
+.agents/
+.gemini/
+.claude/
+scratch/
+tmp/
+temp/
