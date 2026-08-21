@@ -65,7 +65,7 @@ MKConfigure/
 
 1. Clone o repositório ou faça o download dos arquivos:
    ```bash
-   git clone https://github.com/SEU_USUARIO/MKConfigure.git
+   git clone https://github.com/Zjonathas/MKConfigure.git
    ```
 2. Abra o arquivo `index.html` diretamente em qualquer navegador moderno (Chrome, Edge, Firefox, Safari, Brave).
 3. Selecione o modelo do seu MikroTik e preencha as configurações desejadas nas abas laterais.
